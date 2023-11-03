@@ -60,3 +60,10 @@ Solves the Sudoku puzzle using backtracking and recursion.
 game1 = SudokuGrid()
 game1.solve(0, 0)
 print(game1.Grid)
+```
+
+## Process
+
+```
+    A brute force algorithm that will recursively keep attempting combinations until one returns complete. As long as the Sudoku puzzle has a valid solution, this algorithm will keep looking through every possibility (whilst removing impossibilites from consideration) until it is found.
+```
